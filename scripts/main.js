@@ -17,8 +17,6 @@
 //     console.log("bunday katak mavjud emas");
 // }
 
-
-
 // if1
 // let a = +prompt("son kiritng ::::"); 
 // if (a>0) {
@@ -197,14 +195,14 @@
 
 
 
-// let arr=[`*`,"a","b","c","d"]
-// let  i= -1
-// while (i<arr.length) {
-//         console.log(arr.join(""));
-//         arr.shift();
-//         arr.push(arr[i])
-//     i++
-// }
+let arr=[`*`,"a","b","c","d"]
+let  i= -1
+while (i<arr.length) {
+        console.log(arr.join(""));
+        arr.shift();
+        arr.push(arr[i])
+    i++
+}
 
 // let arr = ["*","a", "b", "c","d"];
 // for ( i = 0; i < arr.length; i++){
@@ -268,21 +266,107 @@
 // }
 // console.log(arr);
 
-// let son=+prompt("son kiritng")
-// let i=1,sum=1
-// while (i<=son) {
-//     sum=sum*i
-//     i++
-// }
-// console.log(sum);
 
-let    son=[1,2,3,4,4,5,6,6,8,9]
-let number=[1,2,3,5,4,3,2,3,4,5]
-let ball=0
-let strike=0
-for (let i = 0; i < son.length; i++) {
-    if (son[i]===number[i]) {
-        strike++}else{ball++}
-    
-}
-console.log(`${strike}S${ball}B`);
+
+
+
+// let    son=[1,3,2]
+// let number=[1,2,4]
+// let ball=0
+// let strike=0
+// for (let i = 0; i < son.length; i++) {
+//     if (son.includes(number[i])) {
+//         ball++
+//     }
+//         if (son[i]===number[i]) {
+//         strike++
+//     ball--
+//     }
+// }
+// console.log(`${strike}S${ball}B`)
+
+
+// let son=[5,4,3,2,1]
+// let array,katta1,katta2
+//  let element=Math.max(...son)
+//  katta1=son.splice(son.indexOf(element),1)
+//  let element2=Math.max(...son)
+//  katta2=son.splice(son.indexOf(element2),1)
+//  array=katta1.concat(katta2)
+//  console.log(array);
+// array.push(element)
+
+
+// let son=[5,4,3,6,2,1]
+// let i=0
+// while (son[i]>son[i+1]) {
+//     const element = son.splice(i,1);
+//     son.splice(i+1,0,...element)
+//    console.log(son);
+//    i++
+// }
+
+
+
+// let a = +prompt("a ni kiriting");
+// let b = +prompt("b ni kiriting");
+// let arr = [];
+// let array = [];
+// let c=0
+// let mas=[]
+// for (let index = 1; index <= a; index++) {
+//   if(a%index==0){
+// arr.push(index)
+//   }
+// }
+// for (let index = 1; index <= b; index++) {
+//   if(b%index==0){
+// array.push(index)
+//   }
+// }
+// for (let i = 0; i < arr.length; i++) {
+//  if (array.includes(arr[i])){
+//  mas.push(arr[i])
+//  }
+// }
+// c=Math.max(...mas)
+// console.log( c)
+
+
+// let a=prompt("belgi kirting")
+// console.log(a.charCodeAt());// 
+
+
+// let son=prompt("sonni kiriting")
+// if (son>32&&son<=126) {
+//     console.log(String.fromCharCode(son))
+// }else{
+//     console.log("kiritilgan son orqliqqa togri kelmaydi");
+// }
+
+
+// let son=prompt("sonni kiriting"),b;
+// b=son.charCodeAt()
+//     console.log(String.fromCharCode((b-1)))
+//     console.log(String.fromCharCode((b+1)))
+
+
+// let son=+prompt("son kiriting")
+// if (1<=son&&son<=26) {
+//    let d=son+65
+// for (let i = 65; i < d; i++) {
+//     console.log(String.fromCharCode(i));
+// }}
+// else{
+//     console.log("lotin alfabetida buncha raqam yoq");
+// }
+
+// let son=+prompt("son kiriting")
+// if (1<=son&&son<=26) {
+//    let d=122-son
+// for (let i = 122; i >d ; i--) {
+//     console.log(String.fromCharCode(i));
+// }}
+// else{
+//     console.log("lotin alfabetida buncha raqam yoq");
+// }
